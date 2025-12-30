@@ -46,7 +46,7 @@ _Save screenshot in:_
 2. Click **Create**  
 3. Choose **Microsoft Entra ID** as the tenant type  
 4. Fill out the fields:
-   - **Organization name:** `JSFrancisLegacy`
+   - **Organization name:** `JSFrancisLegacy Computer Solutions`
    - **Initial domain name:** `jsfrancislegacy.onmicrosoft.com`
    - **Country/Region:** United States
 
@@ -74,7 +74,7 @@ _Save screenshot in:_
 ## 🧵 Step 5 — Verify Tenant Details
 1. Return to **Microsoft Entra ID**  
 2. Confirm the top banner now shows:
-   - Directory: **JSFrancisLegacy**
+   - Directory: **JSFrancisLegacy Computer Solutions**
    - Domain: `jsfrancislegacy.onmicrosoft.com`
 
 📸 **Screenshot:** Entra ID overview of the new tenant  
@@ -85,9 +85,9 @@ _Save screenshot in:_
 
 ## 🧵 Step 6 — Confirm No Users Are Present Yet
 1. In the left menu, select **Users**  
-2. You should see only one user (your personal Microsoft account listed as a Guest)
+2. You should see only one user (your personal Microsoft account listed as a member)
 
-📸 **Screenshot:** Users page (showing only 1 guest user)  
+📸 **Screenshot:** Users page (showing only 1 member user)  
 _Save screenshot in:_  
 `/screenshots/lab01/users-list.png`
 
