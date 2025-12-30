@@ -9,6 +9,6 @@ This repository contains hands-on Azure documentation, screenshots, scripts, and
 - `/scripts` – PowerShell scripts used in labs
 
 ## Labs
-- Lab 01: Create an Azure Tenant (coming next)
+- Lab 01: Create an Azure Tenant
 - Lab 02: Custom Domain Setup
 - Lab 03: MFA & Security Baseline
