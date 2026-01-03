@@ -31,6 +31,8 @@ By the end of this lab, you will:
 📸 **Screenshot:** Entra ID overview page  
 _Save screenshot in:_  
 `/screenshots/lab03/entra-overview.png`
+![Entra ID Overview](../screenshots/lab03/entra-overview.png)
+
 
 ---
 
@@ -49,6 +51,8 @@ _Save screenshot in:_
 📸 **Screenshot:** New user creation screen  
 _Save screenshot in:_  
 `/screenshots/lab03/create-admin-user.png`
+![Create Admin User](../screenshots/lab03/create-admin-user.png)
+
 
 ---
 
@@ -62,6 +66,8 @@ _Save screenshot in:_
 📸 **Screenshot:** Role assignment page  
 _Save screenshot in:_  
 `/screenshots/lab03/assign-global-admin.png`
+![Assign Global Administrator](../screenshots/lab03/assign-global-admin.png)
+
 
 ⚠️ **Security Note:**  
 In production environments, Global Administrator access should be tightly restricted.
@@ -77,6 +83,7 @@ In production environments, Global Administrator access should be tightly restri
 📸 **Screenshot:** First-time password reset screen  
 _Save screenshot in:_  
 `/screenshots/lab03/first-login-password-reset.png`
+![First Login Password Reset](../screenshots/lab03/first-login-password-reset.png)
 
 ---
 
@@ -90,6 +97,7 @@ During the first sign-in, the user is prompted to configure security information
 📸 **Screenshot:** MFA approval request in Microsoft Authenticator  
 _Save screenshot in:_  
 `/screenshots/lab03/mfa-approval-prompt.png`
+![MFA Approval Prompt](../screenshots/lab03/mfa-approval-prompt.png)
 
 ---
 
@@ -105,6 +113,7 @@ This view confirms that authentication methods are managed for the user and that
 📸 **Screenshot:** Authentication methods overview for admin user  
 _Save screenshot in:_  
 `/screenshots/lab03/authentication-methods.png`
+![Authentication Methods](../screenshots/lab03/authentication-methods.png)
 
 
 ---
