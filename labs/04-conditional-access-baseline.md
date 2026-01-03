@@ -35,6 +35,8 @@ By the end of this lab, you will:
 📸 **Screenshot:** Conditional Access overview page  
 _Save screenshot in:_  
 `/screenshots/lab04/conditional-access-overview.png`
+![Conditional Access Overview](../screenshots/lab04/conditional-access-overview.png)
+
 
 ---
 
@@ -47,6 +49,7 @@ _Save screenshot in:_
 📸 **Screenshot:** New Conditional Access policy creation  
 _Save screenshot in:_  
 `/screenshots/lab04/create-policy.png`
+![Create Conditional Access Policy](../screenshots/lab04/create-policy.png)
 
 ---
 
@@ -62,6 +65,7 @@ Targeting roles ensures the policy automatically applies to future administrator
 📸 **Screenshot:** Role-based user assignment  
 _Save screenshot in:_  
 `/screenshots/lab04/assign-admin-role.png`
+![Assign Admin Role](../screenshots/lab04/assign-admin-role.png)
 
 ---
 
@@ -75,6 +79,7 @@ This ensures administrative access is protected across all Azure and Entra ID re
 📸 **Screenshot:** Target resources set to All resources  
 _Save screenshot in:_  
 `/screenshots/lab04/cloud-apps.png`
+![Target Resources All](../screenshots/lab04/cloud-apps.png)
 
 ---
 
@@ -87,6 +92,7 @@ _Save screenshot in:_
 📸 **Screenshot:** MFA grant control configuration  
 _Save screenshot in:_  
 `/screenshots/lab04/grant-mfa.png`
+![Grant MFA](../screenshots/lab04/grant-mfa.png)
 
 ---
 
@@ -98,6 +104,7 @@ This approach aligns with Microsoft best practices for safely rolling out Condit
 📸 **Screenshot:** Conditional Access policy enabled in Report-only mode  
 _Save screenshot in:_  
 `/screenshots/lab04/policy-report-only.png`
+![Policy Report Only](../screenshots/lab04/policy-report-only.png)
 
 
 ---

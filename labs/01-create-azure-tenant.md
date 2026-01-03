@@ -28,6 +28,8 @@ By the end of this lab, you will:
 📸 **Screenshot:** Azure Portal home page  
 _Save screenshot in:_  
 `/screenshots/lab01/portal-home.png`
+![Azure Portal Home](../screenshots/lab01/portal-home.png)
+
 
 ---
 
@@ -38,6 +40,7 @@ _Save screenshot in:_
 📸 **Screenshot:** Entra ID overview of your default directory  
 _Save screenshot in:_  
 `/screenshots/lab01/entra-default-overview.png`
+![Entra Default Directory Overview](../screenshots/lab01/entra-default-overview.png)
 
 ---
 
@@ -56,6 +59,7 @@ _Save screenshot in:_
 📸 **Screenshot:** Tenant creation page before submitting  
 _Save screenshot in:_  
 `/screenshots/lab01/tenant-create.png`
+![Tenant Creation Page](../screenshots/lab01/tenant-create.png)
 
 ---
 
@@ -68,6 +72,7 @@ _Save screenshot in:_
 📸 **Screenshot:** Switching directories window  
 _Save screenshot in:_  
 `/screenshots/lab01/switch-directory.png`
+![Switch Directory](../screenshots/lab01/switch-directory.png)
 
 ---
 
@@ -80,6 +85,7 @@ _Save screenshot in:_
 📸 **Screenshot:** Entra ID overview of the new tenant  
 _Save screenshot in:_  
 `/screenshots/lab01/entra-new-tenant.png`
+![New Tenant Overview](../screenshots/lab01/entra-new-tenant.png)
 
 ---
 
@@ -90,6 +96,7 @@ _Save screenshot in:_
 📸 **Screenshot:** Users page (showing only 1 member user)  
 _Save screenshot in:_  
 `/screenshots/lab01/users-list.png`
+![Users List](../screenshots/lab01/users-list.png)
 
 ---
 
