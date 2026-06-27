@@ -1,8 +1,8 @@
 # Azure Labs Portfolio
 
-This repository contains hands-on Azure documentation, configuration walkthroughs, and operational notes demonstrating how I design, secure, and manage Microsoft Azure environments.
+This Azure Labs portfolio represents my hands-on learning journey as a Senior IT Support Specialist expanding into cloud technologies. My professional background includes enterprise remote support, identity and access workflows, and collaboration on Single Sign-On (SSO) integrations and system migrations.
 
-The focus of this portfolio is **identity, security, governance, and readiness** for real-world client and small business Azure tenants.
+These labs are designed to bridge real-world operational experience with modern cloud concepts, focusing on identity management, deployment practices, troubleshooting workflows, and infrastructure fundamentals relevant to enterprise environments.
 
 ---
 
