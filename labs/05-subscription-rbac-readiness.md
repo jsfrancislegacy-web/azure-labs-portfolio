@@ -8,7 +8,7 @@ This lab focuses on readiness, architecture understanding, and operational inten
 
 ---
 
-## 🎯 Objectives
+## Objectives
 By the end of this lab, you will:
 - Understand the relationship between Microsoft Entra ID and Azure subscriptions
 - Identify prerequisites for implementing Azure RBAC
@@ -17,7 +17,7 @@ By the end of this lab, you will:
 
 ---
 
-## 🧠 Key Concept — Identity vs Resources
+## Key Concept — Identity vs Resources
 
 Microsoft Entra ID (Azure AD) and Azure subscriptions serve different purposes:
 
@@ -35,7 +35,7 @@ RBAC cannot be implemented without an active Azure subscription.
 
 ---
 
-## 🧵 Step 1 — Subscription Prerequisites
+## Step 1 — Subscription Prerequisites
 To implement Azure RBAC, the following must exist:
 
 - An active Azure subscription (Pay-As-You-Go, CSP, or Enterprise)
@@ -46,7 +46,7 @@ These prerequisites are typically handled during initial client onboarding or cl
 
 ---
 
-## 🧵 Step 2 — Subscription-to-Tenant Association
+## Step 2 — Subscription-to-Tenant Association
 In client environments, Azure subscriptions are either:
 
 - Created directly under the client’s Entra ID tenant, or
@@ -59,7 +59,7 @@ This ensures:
 
 ---
 
-## 🧵 Step 3 — RBAC Design (Least Privilege Model)
+## Step 3 — RBAC Design (Least Privilege Model)
 Once a subscription is available, RBAC is implemented using the following principles:
 
 - **Avoid subscription-wide Owner or Contributor access**
@@ -73,7 +73,7 @@ This approach limits blast radius and reduces the impact of compromised accounts
 
 ---
 
-## 🧵 Step 4 — Separation of Duties
+## Step 4 — Separation of Duties
 A secure Azure access model separates responsibilities:
 
 - **Identity administrators**
@@ -87,7 +87,7 @@ This separation aligns with Microsoft and industry security best practices.
 
 ---
 
-## 🎉 Lab Completed
+## Lab Completed
 You now have:
 - A clear understanding of Azure subscription requirements
 - Documented RBAC readiness for client environments

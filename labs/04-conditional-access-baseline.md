@@ -10,7 +10,7 @@ Conditional Access allows administrators to enforce security controls—such as 
 
 ---
 
-## 🎯 Objectives
+## Objectives
 By the end of this lab, you will:
 - Create a Conditional Access policy targeting administrative roles
 - Enforce MFA through policy (not just per-user setup)
@@ -19,41 +19,37 @@ By the end of this lab, you will:
 
 ---
 
-## 🛠️ Prerequisites
+## Prerequisites
 - Azure tenant with Microsoft Entra ID
 - Administrative account with MFA registered
 - Microsoft Entra ID P1 or P2 licensing (trial or paid)
 
 ---
 
-## 🧵 Step 1 — Open Conditional Access
+## Step 1 — Open Conditional Access
 1. Sign in to https://portal.azure.com
 2. Navigate to **Microsoft Entra ID**
 3. Select **Security**
 4. Under **Protect**, select **Conditional Access**
 
-📸 **Screenshot:** Conditional Access overview page  
-_Save screenshot in:_  
-`/screenshots/lab04/conditional-access-overview.png`
+**Screenshot:** Conditional Access overview page  
 ![Conditional Access Overview](../screenshots/lab04/conditional-access-overview.png)
 
 
 ---
 
-## 🧵 Step 2 — Create a New Policy
+## Step 2 — Create a New Policy
 1. Select **Policies**
 2. Click **Create new policy**
 3. Enter a policy name: Enforce MFA for Administrators
 
 
-📸 **Screenshot:** New Conditional Access policy creation  
-_Save screenshot in:_  
-`/screenshots/lab04/create-policy.png`
+**Screenshot:** New Conditional Access policy creation  
 ![Create Conditional Access Policy](../screenshots/lab04/create-policy.png)
 
 ---
 
-## 🧵 Step 3 — Assign Users and Roles
+## Step 3 — Assign Users and Roles
 1. Under **Assignments**, select **Users**
 2. Choose **Directory roles**
 3. Select **Global Administrator**
@@ -62,54 +58,45 @@ _Save screenshot in:_
 **Why roles:**  
 Targeting roles ensures the policy automatically applies to future administrators without manual updates.
 
-📸 **Screenshot:** Role-based user assignment  
-_Save screenshot in:_  
-`/screenshots/lab04/assign-admin-role.png`
+**Screenshot:** Role-based user assignment  
 ![Assign Admin Role](../screenshots/lab04/assign-admin-role.png)
 
 ---
 
-## 🧵 Step 4 — Configure Target Resources
+## Step 4 — Configure Target Resources
 1. Under **Assignments**, select **Target resources**
 2. Choose **All resources**  
    *(formerly labeled "All cloud apps")*
 
 This ensures administrative access is protected across all Azure and Entra ID resources.
 
-📸 **Screenshot:** Target resources set to All resources  
-_Save screenshot in:_  
-`/screenshots/lab04/cloud-apps.png`
+**Screenshot:** Target resources set to All resources  
 ![Target Resources All](../screenshots/lab04/cloud-apps.png)
 
 ---
 
-## 🧵 Step 5 — Configure Grant Controls
+## Step 5 — Configure Grant Controls
 1. Under **Access controls**, select **Grant**
 2. Choose **Grant access**
 3. Enable **Require multi-factor authentication**
 4. Click **Select**
 
-📸 **Screenshot:** MFA grant control configuration  
-_Save screenshot in:_  
-`/screenshots/lab04/grant-mfa.png`
+**Screenshot:** MFA grant control configuration  
 ![Grant MFA](../screenshots/lab04/grant-mfa.png)
 
 ---
 
-## 🧵 Step 6 — Enable the Policy in Report-only Mode
+## Step 6 — Enable the Policy in Report-only Mode
 
 The policy was enabled in **Report-only** mode to validate scope, targeting, and impact before enforcement.
 This approach aligns with Microsoft best practices for safely rolling out Conditional Access policies, especially in new or client environments.
 
-📸 **Screenshot:** Conditional Access policy enabled in Report-only mode  
-_Save screenshot in:_  
-`/screenshots/lab04/policy-report-only.png`
+**Screenshot:** Conditional Access policy enabled in Report-only mode  
 ![Policy Report Only](../screenshots/lab04/policy-report-only.png)
-
 
 ---
 
-## 🎉 Lab Completed
+## Lab Completed
 You now have:
 - A Conditional Access policy targeting privileged directory roles
 - MFA requirements evaluated through Conditional Access
