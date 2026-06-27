@@ -1,4 +1,4 @@
-🧪 Lab 02 — Custom Domain Setup
+# Lab 02 — Custom Domain Setup
 Overview
 
 In this lab, we configure a custom domain for our Microsoft Entra ID tenant.
